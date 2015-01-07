@@ -1,0 +1,27 @@
+{
+  "name": "mi-promise",
+  "version": "1.0.0",
+  "description": "promises in node",
+  "main": "app.js",
+  "dependencies": {
+    "q": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suarezwilliamf/mi-promise.git"
+  },
+  "keywords": [
+    "promises",
+    "node"
+  ],
+  "author": "suarezwilliamf@boolinc.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suarezwilliamf/mi-promise/issues"
+  },
+  "homepage": "https://github.com/suarezwilliamf/mi-promise"
+}
