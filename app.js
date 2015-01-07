@@ -1,16 +1,14 @@
-module.exports = function (sum){
+module.exports = function (num1, num2, sum){
 
-  var q = app.utils.q;
-  var promise = require('promise');
+  var q = require ('q');
+  var estado = q.defer();
 
-
-  var sum = function (num1, num2, res){
-
-    if ( this.num1 + this.num2 == this.res){
-    console.log('fullfield');
-
-    }else{
-    new Error("el resultado no corresponde con la suma de los números");
-    }
-
+  if (num1 + num2 == sum){
+    estado.resolve();
+  }else{
+    estado.reject(
+      new Error('no coincide el valor de la suma con el resultado')
+    );
+  }
+  return estado.promise;
 };
